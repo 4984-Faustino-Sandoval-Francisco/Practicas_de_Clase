@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas en HTML</title>
+	  <link href="../style_enlace.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav> 
+				<ul>
+			    <li><a href="animación.html">Animación</a></li>
+				<li><a href="audio.html">Audio</a></li> 
+				<li><a href="dia_de_muertos.html">Dia de Muertos</a></li> 
+				<li><a href="enlaces.html">Enlaces</a></li>
+				<li><a href="flexbox.html">Flexbox</a></li>
+				<li><a href="formualrios.html">Formularios</a></li>
+				<li><a href="formulario_tarea.html">Formularios Tarea</a></li>
+				<li><a href="imagenes.html">Imagenes</a></li>
+				<li><a href="listas.html">Listas</a></li>
+				<li><a href="mefiaq.html">Media Queries</a></li>
+				<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+				<li><a href="tablas.html">Tablas</a></li>
+				<li><a href="video.html">Video</a></li>
+			</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Tabla simple</h2>
+			<table class="tabla" border="1" bordercolor="#fabc28">
+				<thead>
+				<tr>
+				    <th>Nombre</th>
+					<th>email</th>
+					<th>Télefono</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Daniel Vazquez Juarez</td>
+					<td>dani.vazquez@gmail.com</td>
+					<td>2224568978</td>
+				</tr>
+				<tr>
+					<td>Maria Guadalupe Sanchez </td>
+					<td>lupita23@hotmail.com</td>
+					<td>2225287423</td>
+				</tr>
+				<tr>
+					<td>Juan Esquivel Garcia</td>
+					<td>juan45@outlook.com</td>
+					<td>2214455898</td>
+				</tr>
+				<tr>
+					<td>Lucia Mendez Perez</td>
+					<td>lucy_mendez@gmail.com</td>
+					<td>2221356987</td>
+				</tr>
+				<tr>
+					<td>Rodolfo Hernandez Solis</td>
+					<td>themasteragm@gmail.com</td>
+					<td>2524268997</td>
+				</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+<section>
+    <h2>Tabla con celda que abarca dos columnas</h2>
+			<table class="tabla" border="1" bordercolor="#fabc28">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th colspan="2">Telefonos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jose Galian Perez</td>
+						<td>222 3998939</td>
+						<td>2224466974</td>
+					</tr>
+					<tr>
+						<td>Raul Bucholt Qu</td>
+						<td>222 8965784</td>
+						<td>2224697898</td>
+					</tr>
+					<tr>
+						<td>Cintya Solis Solis</td>
+						<td>222 4898634</td>
+						<td>2224789635</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Tabla modificada a partir de reglas de identidad en CSS</h2>
+		  <table class="tabla" width="600" border="1" id="t01">
+			<thead>
+			 <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Apellidos</th>
+              <th scope="col">Edad</th>
+            </tr>
+			</thead>
+  <tbody>
+    <tr>
+      <td>Juan </td>
+      <td>Sanchez Perez</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Nicole</td>
+      <td>Barceinas Meneses</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Wendy </td>
+      <td>Faustino Sandoval</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+
+		</section>
+		  <section>
+		    <h2>Tabla simple</h2>
+		    <table border="1" bordercolor="#fabc28" id="t02" >
+		      <thead>
+		        <tr>
+		          <th>Nombre</th>
+		          <th>email</th>
+		          <th>Télefono</th>
+	            </tr>
+	          </thead>
+		      <tbody>
+		        <tr>
+		          <td>Daniel Vazquez Juarez</td>
+		          <td>dani.vazquez@gmail.com</td>
+		          <td>2224568978</td>
+	            </tr>
+		        <tr>
+		          <td>Maria Guadalupe Sanchez </td>
+		          <td>lupita23@hotmail.com</td>
+		          <td>2225287423</td>
+	            </tr>
+		        <tr>
+		          <td>Juan Esquivel Garcia</td>
+		          <td>juan45@outlook.com</td>
+		          <td>2214455898</td>
+	            </tr>
+		        <tr>
+		          <td>Lucia Mendez Perez</td>
+		          <td>lucy_mendez@gmail.com</td>
+		          <td>2221356987</td>
+	            </tr>
+		        <tr>
+		          <td>Rodolfo Hernandez Solis</td>
+		          <td>themasteragm@gmail.com</td>
+		          <td>2524268997</td>
+	            </tr>
+	          </tbody>
+		      <tfoot>
+	          </tfoot>
+	        </table>
+	      </section>
+		<section>
+			<table  class="tabla" width="500" border="1">
+<thead>
+	<tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Genero</th>
+      <th>Deporte</th>
+    </tr>
+</thead>
+  <tbody>
+    <tr>
+      <td>Maria Lopez</td>
+      <td>15</td>
+      <td>Femenino</td>
+      <td>Futbol</td>
+    </tr>
+    <tr>
+      <td>Gabriela Hernandez</td>
+      <td>12</td>
+      <td>Femenino</td>
+      <td>Basquetbol</td>
+    </tr>
+    <tr>
+      <td>Juan Becerra</td>
+      <td>11</td>
+      <td>Masculino</td>
+      <td>Voleibol</td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
+		</section>
+	</main>
+	<footer style="color: #FFFFFF; font-size: 20px;text-align: center;">Elaborado por Francisco Faustino Sandoval</footer>
+</body>
+</html>
